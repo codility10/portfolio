@@ -1,7 +1,7 @@
 import React from "react";
 import { Mongodb, Nodejs, Reactjs, Redux } from "../assets";
  import img from "../assets/amirr.png"
-import Typical from "react-typical";
+// import Typical from "react-typical";
 const Header = () => {
   return (
     <div className='w-full flex flex-col lg:flex-row px-4 md:px-20 gap-10 2xl:gap-20 py-20'>
@@ -61,8 +61,10 @@ const Header = () => {
             I'm a
           </h1>
           <div className='flex items-center justify-center text-white shadow-lg bg-blue-800 dark:bg-[#224cff10] dark:text-pink-500 rounded-full'>
-         
-            <Typical className='text-3xl  font-bold px-5 py-2 pb-2 text-center'
+         <p className='text-3xl  font-bold px-5 py-2 pb-2 text-center'>
+            REACT-JS
+         </p>
+            {/* <Typical className='text-3xl  font-bold px-5 py-2 pb-2 text-center'
         steps={[
           'REACT-JS',
           2000, 
@@ -72,7 +74,7 @@ const Header = () => {
           2000,]}
         loop={Infinity}
         wrapper="p"
-      />
+      /> */}
          
           </div>
         </div>
