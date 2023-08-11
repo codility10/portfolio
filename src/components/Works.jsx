@@ -23,6 +23,7 @@ const Works = () => {
               src={p.img}
               alt={p.name}
               className='w-full h-[250px] object-cover rounded-md '
+              
             />
 
             <div className='w-full h-[100px] bg-white dark:bg-[#04133e]'>

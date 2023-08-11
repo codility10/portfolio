@@ -7,7 +7,6 @@ import {
   Nextjs,
   Nextjs2,
   Nodejs,
-  Python,
   Reactjs,
   admin,
 

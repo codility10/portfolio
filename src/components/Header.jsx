@@ -17,6 +17,7 @@ const Header = () => {
             data-aos-delay='50'
             data-aos-duration='500'
             data-aos-easing='ease-in-out'
+            alt="fix2"
           />
           <div
             className='relative w-full h-full rounded-full'
@@ -29,19 +30,23 @@ const Header = () => {
             <img
               src={Reactjs}
               className='absolute top-7 md:top-20 left-3 md:-left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16'
+              alt="ReactJS"
             />
             <img
               src={Redux}
               className='absolute bottom-7 left-3 md:bottom-10 2xl:left-12 w-12 h-12 md:w-16 md:h-16'
+              alt="Redux"
             />
             <img
               src={Mongodb}
               className='absolute top-5 md:top-14 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16'
+              alt="Mongodb"
             />
             <img
               src={Nodejs}
               className='absolute bottom-7 right-3 md:bottom-10 2xl:right-12 w-12 h-12 md:w-16 md:h-16'
-            />
+              alt="NodeJs"
+           />
           </div>
         </div>
       </div>
